@@ -1,0 +1,145 @@
+html, body, figure, img, div, section, article, input, button, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+     -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #1b1e20 ;
+    font-family: 'Public Sans', sans-serif;
+
+       
+}
+.pag-cabecalho{
+/*     background-color: aliceblue; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+   /*  background-color: rgb(126, 195, 255); */
+    color: rgb(241, 241, 241);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+    
+
+}
+.ContainerFull{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+         
+}
+
+.containerCards{
+    width: 700px;
+   /*  background-color: crimson; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ }
+
+ .containerCards li {
+    width: 160px;
+    height: 160px;
+    
+ }
+ 
+ .containerCards li p {
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
+    transition: 0.6s;
+ }
+
+.ContainerFull li div {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27292b;
+    border-radius: 10px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    transition: 0.6s;
+    
+
+}
+
+.ContainerFull li div img{
+    filter: opacity(0.4);
+    transition: 0.6s;
+    
+}
+
+.ContainerFull li .imagem1{
+   
+    background-color: #27292b;
+    border-radius: 10px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    transition: 0.6s;
+
+}
+
+
+.button{
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    background-color: #1b1e20;
+    color: aliceblue;
+    border: solid 1px ;
+    border-radius: 15px;
+    font-size: 15px;
+    transition: 0.6s;
+}
+
+.botao{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 100px;
+    
+    
+  
+}
+.ContainerFull li .imagem1:hover{
+    border: solid 3px #FFF;
+    
+    
+}
+
+.ContainerFull li:hover p{
+    color: #fff;
+    
+    
+}
+
+.ContainerFull li div:hover {
+    border: solid 3px #FFF;
+}
+
+.button:hover{
+    background-color: #FFF;
+    color: #27292b;
+
+}
+
+.ContainerFull li div:hover img{
+    filter: opacity(1);
+}
