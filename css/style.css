@@ -82,15 +82,17 @@ h1 {
 .ContainerFull li div img{
     filter: opacity(0.4);
     transition: 0.6s;
-    
+    width: 60px;
+
 }
 
 .ContainerFull li .imagem1{
    
     background-color: #27292b;
     border-radius: 10px;
-    border: solid 2px rgba(0, 0, 0, 0);
+    border: solid 3px transparent;
     transition: 0.6s;
+    width: 160px;
 
 }
 
@@ -103,7 +105,7 @@ h1 {
     color: aliceblue;
     border: solid 1px ;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 20px;
     transition: 0.6s;
 }
 
